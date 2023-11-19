@@ -25,8 +25,8 @@ body{
 
 #header .nav-list ul{
     display: flex;
-    padding: 20px;
-    font-size: 1.7rem;
+    padding: 15px;
+    font-size: 1.1rem;
     list-style-type: none;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 #header .nav-list a:hover{
-    padding: 21.4px;
+    padding: 15px;
     background-color: rgb(192, 215, 207);
     transition: 0.5s ease;
 }
@@ -47,13 +47,13 @@ body{
 /* }*/ 
 
 #header .nav-icon{
-    padding: 25px;
+    padding: 15px;
     position: absolute;
     left: 95%;
 }
 
 #header .nav-icon:hover{
-    padding: 26.2px;
+    padding: 14px;
     background-color: crimson;
     transition: 0.6s ease;
 }
@@ -75,7 +75,7 @@ body{
     position: relative;
     top: 85%;
     left: 0%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -85,7 +85,7 @@ body{
 
 #band{
     margin: 5% 20%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
 }
 
@@ -95,13 +95,13 @@ body{
 }
 
 #band span{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 200;
     color: rgb(173, 173, 173);
 }
 
 #band p{
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 200;
     padding-top: 15px;
 }
@@ -110,8 +110,8 @@ body{
     display: flex;
     width: 100%;  
     position: relative;
-    right: 1%;
-    left: 5%;
+    right: 20%;
+    /* left: 0%; */
     margin-top: 5%;
 }
 
@@ -123,7 +123,8 @@ body{
 }
 
 #band .nathan h4{
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 #band .john img{
@@ -134,7 +135,8 @@ body{
 }
 
 #band .john h4{
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 #band .timothy img{
@@ -144,7 +146,8 @@ body{
 }
 
 #band .timothy h4{
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 #tour-container{
@@ -157,75 +160,75 @@ body{
 }
 
 #tour-container h2{
-    font-weight: 400;
-    font-size: 3rem;
+    font-weight: 200;
+    font-size: 2rem;
    padding-bottom: 20px;
    padding-top: 100px;
 }
 
 #tour-container span{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 200;
     color: rgb(173, 173, 173);
 }
 
 #tour-container .months{
     display: inline-grid;
-    width: 1200px;
+    width: 900px;
     border: 1px solid;
 }
 
 #tour-container .months ::placeholder{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #tour-container #september{
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
 }
 
 #tour-container #october{
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
 }
 
 #tour-container #november{
-    height: 50px;
+    height: 40px;
     padding-left: 20px;
 }
 
 #tour-container .locations{
     display: flex;
-    margin-left: 15.5%;
+    margin-left: 10%;
 }
 
 #tour-container .locations img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     padding-bottom: 15px;
 }
 
 #tour-container .locations h4{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-bottom: 15px;
     color: rgb(43, 43, 71);
 }
 
 #tour-container .locations span{
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(173, 173, 173);
 }
 
 #tour-container .locations p{
-    font-size: 19px;
+    font-size: 15px;
     color: black;
     padding: 15px 0;
 }
 
 #tour-container .locations input{
-    width: 130px;
+    width: 100px;
     height: 45px;
-    font-size: 19px;
+    font-size: 15px;
     color: white;
     background-color: black;
     border: transparent;
@@ -259,14 +262,14 @@ body{
 }
 
 #contact h2{
-    font-weight: 400;
-    font-size: 3rem;
+    font-weight: 200;
+    font-size: 1.8rem;
    padding-bottom: 20px;
-   padding-top: 100px;
+   padding-top: 80px;
 }
 
 #contact span{
-    font-size: 28px;
+    font-size: 19px;
     font-weight: 200;
     color: rgb(173, 173, 173);
 }
@@ -288,53 +291,53 @@ body{
 
 
 .contact-container .contact-info i{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .contact-container .contact-info h4{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .contact-container #name{
     width: 280px;
-    height: 55px;
+    height: 40px;
     padding: 10px 0;
     padding-left: 10px;
 }
 
 .contact-container #name::placeholder{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-container #email{
     width: 280px;
-    height: 55px;
+    height: 40px;
     padding-left: 10px;
     margin-left: 20px;
 }
 
 .contact-container #email::placeholder{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-container #message{
     width: 589px;
-    height: 55px;
+    height: 40px;
     padding-left: 10px;
     margin-top: 35px;
 }
 
 .contact-container #message::placeholder{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-container #send{
-    width: 140px;
-    height: 50px;
+    width: 110px;
+    height: 40px;
     margin-top: 30px;
-    margin-left: 450px;
+    margin-left: 480px;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1rem;
     background-color: black;
     border: transparent;
     border-radius: 5px;
@@ -349,12 +352,12 @@ body{
 }
 
 footer i{
-    font-size: 4rem;
+    font-size: 2.4rem;
     padding: 20px;
 }
 
 footer p{
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 30px;
 }
 
