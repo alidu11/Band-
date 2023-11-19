@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#header{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-color: black;
+    display: flex;
+    opacity: 100%;
+}
+
+#header .nav-list ul{
+    display: flex;
+    padding: 20px;
+    font-size: 1.7rem;
+    list-style-type: none;
+}
+
+#header .nav-list a{
+    padding-inline: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+#header .nav-list a:hover{
+    padding: 21.4px;
+    background-color: rgb(192, 215, 207);
+    transition: 0.5s ease;
+}
+
+/* .more:hover{
+    /* come back */
+/* }*/ 
+
+#header .nav-icon{
+    padding: 25px;
+    position: absolute;
+    left: 95%;
+}
+
+#header .nav-icon:hover{
+    padding: 26.2px;
+    background-color: crimson;
+    transition: 0.6s ease;
+}
+
+#header .nav-icon i{
+    font-size: 1.5rem;
+}
+
+#hero-container{
+    background-image: url(./img/band.jpg);
+    background-size: cover;
+    z-index: 1;
+    /* position: relative; why does it over rides the nav bar when used */
+    width: 100%;
+    height: 900px;
+}
+
+#hero-container .hero-text{
+    position: relative;
+    top: 85%;
+    left: 0%;
+    font-size: 2rem;
+    color: white;
+}
+
+#hero-container .hero-text h1{
+    font-weight: 200;
+}
+
+#band{
+    margin: 5% 20%;
+    font-size: 2rem;
+    position: relative;
+}
+
+#band h2{
+   font-weight: 400;
+   padding-bottom: 20px;
+}
+
+#band span{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(173, 173, 173);
+}
+
+#band p{
+    font-size: 23px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+#band .band-images{
+    display: flex;
+    width: 100%;  
+    position: relative;
+    right: 1%;
+    left: 5%;
+    margin-top: 5%;
+}
+
+#band .nathan img{
+    width: 350px;
+    height: 350px;
+    padding: 10% 15%;
+    position: relative;
+}
+
+#band .nathan h4{
+    font-weight: 200;
+}
+
+#band .john img{
+    width: 350px;
+    height: 350px;
+    padding: 10% 15%;
+    position: relative;
+}
+
+#band .john h4{
+    font-weight: 200;
+}
+
+#band .timothy img{
+    width: 350px;
+    height: 350px;
+    padding: 10% 15%;
+}
+
+#band .timothy h4{
+    font-weight: 200;
+}
+
+#tour-container{
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 200%;
+    padding-bottom: 80px;
+}
+
+#tour-container h2{
+    font-weight: 400;
+    font-size: 3rem;
+   padding-bottom: 20px;
+   padding-top: 100px;
+}
+
+#tour-container span{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(173, 173, 173);
+}
+
+#tour-container .months{
+    display: inline-grid;
+    width: 1200px;
+    border: 1px solid;
+}
+
+#tour-container .months ::placeholder{
+    font-size: 1.5rem;
+}
+
+#tour-container #september{
+    height: 50px;
+    padding-left: 20px;
+}
+
+#tour-container #october{
+    height: 50px;
+    padding-left: 20px;
+}
+
+#tour-container #november{
+    height: 50px;
+    padding-left: 20px;
+}
+
+#tour-container .locations{
+    display: flex;
+    margin-left: 15.5%;
+}
+
+#tour-container .locations img{
+    width: 400px;
+    height: 400px;
+    padding-bottom: 15px;
+}
+
+#tour-container .locations h4{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    color: rgb(43, 43, 71);
+}
+
+#tour-container .locations span{
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+}
+
+#tour-container .locations p{
+    font-size: 19px;
+    color: black;
+    padding: 15px 0;
+}
+
+#tour-container .locations input{
+    width: 130px;
+    height: 45px;
+    font-size: 19px;
+    color: white;
+    background-color: black;
+    border: transparent;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#tour-container .new-york{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 40px 20px;
+}
+
+#tour-container .San-Fransisco{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 40px 20px;
+}
+
+#tour-container .Chicago{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 40px 20px;
+}
+
+#contact{
+    padding: 50px;
+}
+
+#contact h2{
+    font-weight: 400;
+    font-size: 3rem;
+   padding-bottom: 20px;
+   padding-top: 100px;
+}
+
+#contact span{
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(173, 173, 173);
+}
+
+#contact .contact-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#contact .contact-info{
+    padding: 0 90px;
+    margin-right: 70px;
+}
+
+#contact .contact-form{
+    margin-left: 50px;
+}
+
+
+.contact-container .contact-info i{
+    font-size: 1.5rem;
+}
+
+.contact-container .contact-info h4{
+    font-size: 1.5rem;
+}
+
+.contact-container #name{
+    width: 280px;
+    height: 55px;
+    padding: 10px 0;
+    padding-left: 10px;
+}
+
+.contact-container #name::placeholder{
+    font-size: 1.2rem;
+}
+
+.contact-container #email{
+    width: 280px;
+    height: 55px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.contact-container #email::placeholder{
+    font-size: 1.2rem;
+}
+
+.contact-container #message{
+    width: 589px;
+    height: 55px;
+    padding-left: 10px;
+    margin-top: 35px;
+}
+
+.contact-container #message::placeholder{
+    font-size: 1.2rem;
+}
+
+.contact-container #send{
+    width: 140px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 450px;
+    color: white;
+    font-size: 1.4rem;
+    background-color: black;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#map{
+    padding: 70px 0;
+}
+
+#map img{
+    width: 100%;
+}
+
+footer i{
+    font-size: 4rem;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 2rem;
+    padding: 30px;
+}
+
